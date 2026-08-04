@@ -2,6 +2,39 @@
 
 Premium WebGL interface system built with Spline, Next.js, and motion-driven interaction.
 
+alli-ops-ai-webgl/
+│
+├── public/
+│   ├── spline/
+│   │   └── scene.splinecode
+│   └── assets/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── SplineScene.jsx
+│   │   └── ProtectedRoute.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── Dashboard.jsx
+│   │   └── AIDashboard.jsx
+│   │
+│   ├── context/
+│   │   └── AuthContext.jsx
+│   │
+│   ├── ai/
+│   │   └── aiClient.js
+│   │
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .env
+├── package.json
+├── vite.config.js
+└── README.md
+
 ---
 
 ## Overview
