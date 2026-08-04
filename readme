@@ -70,3 +70,28 @@ Premium editorial × WebGL portfolio
 ```bash
 npm install
 npm run dev
+
+<Spline scene="YOUR_SCENE_URL" />
+Roadmap
+ Advanced Spline scene choreography
+ Dashboard + authentication (Supabase)
+ AI automation layer
+ Analytics + tracking system
+ Web3 wallet integration
+ Shader layer (R3F)
+
+Philosophy
+
+This is not a template.
+
+This is a system built to feel:
+
+tactile
+cinematic
+intelligent
+
+Every interaction should feel intentional and alive.
+
+Author
+
+Alli Ops
