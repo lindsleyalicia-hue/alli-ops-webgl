@@ -1,0 +1,72 @@
+# ALLI OPS — IMMERSIVE
+
+Premium WebGL interface system built with Spline, Next.js, and motion-driven interaction.
+
+---
+
+## Overview
+
+Alli Ops is a high-end interactive system combining:
+
+- WebGL environments (Spline)
+- Editorial UI systems
+- Motion-driven UX
+- Automation + intelligence infrastructure
+
+This project is designed as a hybrid between:
+- Design portfolio
+- Interactive product interface
+- Scalable system foundation
+
+---
+
+## Stack
+
+- Next.js (App Router)
+- Spline (WebGL scenes)
+- Framer Motion (animation)
+- Lenis (smooth scroll)
+- Supabase (backend / data)
+
+---
+
+## Design System
+
+**Aesthetic:**
+Premium editorial × WebGL portfolio
+
+**Colors:**
+- Base: #EFEAE0 (warm bone)
+- Ink: #0D0C0A
+- Accent: #E3C68B (champagne)
+- Black: #0C0B09
+
+**Typography:**
+- Display: Ultra-bold uppercase grotesk
+- Meta: Space Mono (uppercase, spaced)
+
+**UI Principles:**
+- Rounded 24px bento cards
+- Soft gradient shadows (no hard drops)
+- 3% film grain overlay
+- Edge-to-edge typography
+- No pure white or cool gray
+
+---
+
+## Features
+
+- Immersive Spline 3D hero
+- Cursor-reactive motion
+- Glass / physical material system
+- Bento grid UI layout
+- Smooth physics-based scrolling
+- Modular component architecture
+
+---
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
