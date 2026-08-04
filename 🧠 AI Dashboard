@@ -4,3 +4,34 @@ Extend to:
 analytics
 automation
 copilots
+
+
+import { supabase } from '../lib/supabase'
+
+export const askAI = async (prompt, user) => {
+  // check credits
+  const { data } = await supabase
+    .from('users')
+    .select('credits')
+    .eq('id', user.id)
+    .single()
+
+  if (data.credits <= 0) {
+    throw new Error('No credits left')
+  }
+
+  const res = await fetch('/api/ai', {
+    method: 'POST',
+    body: JSON.stringify({ prompt }),
+  })
+
+  const output = await res.json()
+
+  // deduct credits
+  await supabase
+    .from('users')
+    .update({ credits: data.credits - 1 })
+    .eq('id', user.id)
+
+  return output
+}
